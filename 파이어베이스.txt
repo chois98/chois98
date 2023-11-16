@@ -1,0 +1,5 @@
+파이어베이스
+프로젝트 만들기-빌드-호스팅-시작하기-cmd(관리자 권한으로 실행)
+
+firebase init-are you ready to proceed -> y  -
+옵션 hosting 1번째꺼 선택  public

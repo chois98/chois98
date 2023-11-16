@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.buttons button {
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+}

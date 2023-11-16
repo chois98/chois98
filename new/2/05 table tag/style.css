@@ -1,0 +1,12 @@
+tr,
+td {
+  border: 1px solid #ccc;
+  boder-collapse: collapse;
+}
+td {
+  padding: 15px;
+}
+
+tr > td:nth-child(even) {
+  width: 300px;
+}

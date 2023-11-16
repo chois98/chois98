@@ -1,0 +1,16 @@
+1.page scroll effect : 페이지 이동 시 부드럽게 이동
+-마우스 스크롤시 , 페이지 변환 효과
+https://codyhouse.co/gem/page-scroll-effects
+https://github.com/flesler/jquery.scrollTo/
+2.slick slider effect : 페이지 내 슬라이더 생성 관리
+-슬라이더 효과
+https://cdnjs.com/
+https://noelboss.github.io/featherlight/
+3.fether light effect : 페이지 내 모달창 만들고 관리
+-모달 창 효과
+4.scrollTo effect : 마우스 크크롤 시 페이지 전환효과
+-특정 요소 클릭 시, 해당 섹션 이동(*부드럽게)
+
+패럴렉스/ 풀페이지 /이펙트인터벌 
+(마우스 스크롤 내리면 스크롤
+위치에 맞게 화면 나오는)

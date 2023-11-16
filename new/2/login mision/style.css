@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+#textbox {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffff;
+  background-color: rgba(211, 211, 211, 0.5);
+  width: 400px;
+}
+
+#centerbox {
+  display: inline-block;
+}

@@ -1,0 +1,156 @@
+@import url("/kakao_chat/var.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #f00; */
+}
+#wrap {
+  border: 1px solid #f00;
+  width: 392px;
+  height: 680px;
+}
+.header_box {
+  /* border: 1px solid #f00; */
+  display: flex;
+  justify-content: flex-end;
+}
+.header_box i {
+  margin-right: 10px;
+}
+.chat {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  /* border: 1px solid #f00; */
+  display: flex;
+  margin-left: 65px;
+}
+.icon_box {
+  /* border: 1px solid #f00; */
+  display: flex;
+  justify-content: flex-end;
+}
+.icon_box i {
+  margin-right: 30px;
+}
+.gnb {
+  width: 17%;
+  height: 87.4%;
+  /* border: 1px solid #f00; */
+  display: flex;
+  flex-direction: column;
+  background: #ececec;
+  margin-top: -24px;
+  float: left;
+}
+.menu1 span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.menu1 span i {
+  padding: 10px 0;
+  font-size: 20px;
+}
+.menu2 {
+  margin-top: 250px;
+}
+.menu2 span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu2 span i {
+  padding: 15px 0;
+  font-size: 16px;
+  color: #000;
+}
+
+main .chat_box {
+  border: 1px solid #fff;
+  width: 80%;
+  height: 8%;
+  float: right;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img_logo {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30%;
+  float: left;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  margin: 0 5px;
+}
+.chat_box img {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 5px; */
+}
+.title > p {
+  border: 1px solid #fff;
+  font-size: 13px;
+  /* margin-right: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+  width: 100%;
+  float: right;
+}
+.chat_time {
+  /* border: 1px solid #f00; */
+  float: right;
+  font-size: 11px;
+  padding: 5px;
+  margin: 0 5px;
+  width: 30%;
+}
+.chat_time em {
+  font-size: 3px;
+  border: 1px solid red;
+  background: red;
+  border-radius: 6px;
+  color: #fff;
+  float: right;
+}
+.adv {
+  display: block;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.adv .adv_img {
+  margin: 10px;
+}
+.adv .adv_detail h3 {
+  font-size: 16px;
+}
+.adv .adv_detail p {
+  font-size: 12px;
+}

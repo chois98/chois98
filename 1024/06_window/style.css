@@ -1,0 +1,13 @@
+body {
+  background: url(/img/event-bg.png) no-repeat center center;
+  background-size: auto;
+}
+h1 {
+  font-size: 60px;
+  color: #fff;
+}
+button {
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+}

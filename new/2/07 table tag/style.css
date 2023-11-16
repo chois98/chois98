@@ -1,0 +1,19 @@
+tr,
+td,
+th {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+table {
+  width: 700px;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+colgroup > col:nth-child(odd) {
+  background-color: #ccc;
+}

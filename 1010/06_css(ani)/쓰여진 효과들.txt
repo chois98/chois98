@@ -1,0 +1,12 @@
+1.page scroll effect 
+-마우스 스크롤시 , 페이지 변환 효과
+https://codyhouse.co/gem/page-scroll-effects
+https://github.com/flesler/jquery.scrollTo/
+2.slick slider effect
+-슬라이더 효과
+https://cdnjs.com/
+https://noelboss.github.io/featherlight/
+3.fether light effect
+-모달 창 효과
+4.scrollTo effect
+-특정 요소 클릭 시, 해당 섹션 이동(*부드럽게)

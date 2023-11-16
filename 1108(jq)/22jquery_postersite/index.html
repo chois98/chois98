@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- custom JS -->
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <!--title-->
+      <hgroup id="title">
+        <h1 data-name="information">Information</h1>
+        <h1 data-name="character">Character</h1>
+        <h1 data-name="mulitimedia">Mulitimedia</h1>
+      </hgroup>
+      <!-- container -->
+      <section id="container">
+        <div id="main" data-name="main" class="active">
+          <img src="/imgs/Middle_Foreground.png" alt="main" />
+        </div>
+        <div id="information" data-name="information">
+          <img src="/imgs/Information_Image.png" alt="info" />
+          <div class="descrption">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
+              illo repudiandae minus eius quidem sed perferendis hic
+              exercitationem debitis. Error mollitia dolor nihil doloremque
+              saepe ipsam earum nostrum quas esse? Quod pariatur magni maxime
+              eius praesentium odio eum neque nam inventore aliquid, vel tempora
+              similique eaque quia illo culpa assumenda a esse quisquam ipsam!
+              Cupiditate voluptas reiciendis rerum accusamus
+            </p>
+          </div>
+        </div>
+        <div id="character" data-name="character">
+          <a href="#">Left Button</a>
+          <a href="#">Right Button</a>
+          <article class="show">
+            <h1>Princess Ann</h1>
+            <img src="/imgs/Character_Text_1.png" alt="ann" />
+            <img src="/imgs/Character_1.png" alt="ann02" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              at ipsum natus, eligendi necessitatibus unde. Cupiditate hic,
+              maxime ad laboriosam ipsa ipsam deserunt quis praesentium? Vitae
+              voluptatum aliquid tenetur eos.
+            </p>
+          </article>
+          <article>
+            <h1>Joe Bradley</h1>
+            <img src="/imgs/Character_Text_2.png" alt="joe01" />
+            <img src="/imgs/Character_2.png" alt="joe02" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              at ipsum natus, eligendi necessitatibus unde. Cupiditate hic,
+              maxime ad laboriosam ipsa ipsam deserunt quis praesentium? Vitae
+              voluptatum aliquid tenetur eos.
+            </p>
+          </article>
+          <article>
+            <h1>Robovich</h1>
+            <img src="/imgs/Character_Text_3.png" alt="vich01" />
+            <img src="/imgs/Character_3.png" alt="vich02" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              at ipsum natus, eligendi necessitatibus unde. Cupiditate hic,
+              maxime ad laboriosam ipsa ipsam deserunt quis praesentium? Vitae
+              voluptatum aliquid tenetur eos.
+            </p>
+          </article>
+        </div>
+        <div id="multimedia" data-name="mulitimedia">
+          <video src="#" width="940" height="460" controls="controls"></video>
+        </div>
+      </section>
+      <!-- navigation -->
+      <nav id="main_navigation">
+        <ul>
+          <li><a href="#" data-target="information">Movie Info</a></li>
+          <li><a href="#" data-target="character">Character</a></li>
+          <li><a href="#" data-target="mulitimedia">Multimedia</a></li>
+          <li><a href="#">Download</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>

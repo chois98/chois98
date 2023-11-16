@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 제이쿼리 -->
+    <script src="/06_css(ani_sitel)/sources/jquery-2.1.4.js"></script>
+    <!-- page scroll effet -->
+    <script
+      defer
+      src="/06_css(ani_sitel)/sources/velocity/modernizr.js"
+    ></script>
+    <script
+      defer
+      src="/06_css(ani_sitel)/sources/velocity/velocity.min.js"
+    ></script>
+    <script
+      defer
+      src="/06_css(ani_sitel)/sources/velocity/velocity.ui.min.js"
+    ></script>
+    <script defer src="/06_css(ani_sitel)/sources/velocity/main.js"></script>
+    <link
+      rel="stylesheet"
+      href="/06_css(ani_sitel)/sources/velocity/velocity.css"
+    />
+    <!-- smooth scrolling -->
+    <script
+      defer
+      src="/06_css(ani_sitel)/sources/scrollto/jquery.scrollTo.js"
+    ></script>
+    <!-- sick slide Effect -->
+    <script defer src="/06_css(ani_sitel)/sources/slick/slick.js"></script>
+    <link
+      rel="stylesheet"
+      href="/06_css(ani_sitel)/sources/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="/06_css(ani_sitel)/sources/slick/slick.css" />
+    <!-- feather light effect -->
+    <script src="/06_css(ani_sitel)/sources/fetherlight/featherlight.js"></script>
+    <link
+      rel="stylesheet"
+      href="/06_css(ani_sitel)/sources/fetherlight/featherlight.css"
+    />
+    <!--Fontawesome-->
+    <script defer src="https://kit.fontawesome.com/318cf804eb.js" crossorigin="anonymous"></script>
+    <!-- custom JS & CSS -->
+    <script defer src="/06_css(ani_sitel)/script.js"></script>
+    <link rel="stylesheet" href="/06_css(ani_sitel)/style.css" />
+  </head>
+  <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+  <body data-hijacking="on" data-animation="rotate">
+    <div class="container">
+      <div class="trigger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <section class="cd-section visible" id="home">
+        <div>
+          <div class="content">
+            <div class="home-inner">
+              <h3 class="welcome-text">
+                You can do it! <span>with EZEN IT<i class="fas fa-heart"></i></span>
+              </h3> 
+              <div class="opacity-image"></div>
+              <div class="home-heading">
+                <span>Creative</span>
+                <span>Architecture</span>
+                <span>Specialists</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cd-section" id="about">
+        <div>
+          <div class="content">
+            <div class="about-inner">
+              <div class="about-items">
+                <div class="item">
+                  <img src="/06_css(ani_sitel)/imgs/careers-main-01.png" alt="career01">
+                  <span>
+                    <h3>Together we can make an impact</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, saepe aut? Ratione, corrupti hic esse velit voluptates reprehenderit, dolores sequi itaque ad asperiores aperiam? Nulla vel dolore quod distinctio doloremque?
+                    </p>
+                  </span>
+                </div>
+                <div class="item">
+                  <img src="/06_css(ani_sitel)/imgs/careers-main-02.png" alt="career02">
+                  <span>
+                    <h3>We're always looking for talent.</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, saepe aut? Ratione, corrupti hic esse velit voluptates reprehenderit, dolores sequi itaque ad asperiores aperiam? Nulla vel dolore quod distinctio doloremque?
+                    </p>
+                  </span>
+                </div>
+                <div class="item">
+                  <img src="/06_css(ani_sitel)/imgs/careers-main-03.png" alt="career03">
+                  <span>
+                    <h3>Fellowship</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, saepe aut? Ratione, corrupti hic esse velit voluptates reprehenderit, dolores sequi itaque ad asperiores aperiam? Nulla vel dolore quod distinctio doloremque?
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cd-section" id="project">
+        <div>
+          <div class="content">
+            <div class="project-inner">
+              <input type="radio" name="tabmenu" id="tab1" checked>
+              <input type="radio" name="tabmenu" id="tab2">
+              <input type="radio" name="tabmenu" id="tab3">
+              <div class="tabs">
+                <div class="tab">
+                  <div class="project-info" data-text="01">
+                    <h3>Project : Glass Wall Architecture.</h3>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, tempora ratione suscipit error neque iste quidem deleniti nesciunt dolorem, illo odit ex dolor repellendus, sequi provident voluptates laboriosam distinctio exercitationem.
+                    </p>
+                    <ul>
+                      <li><b>Area</b> : 1670 m2</li>
+                      <li><b>Completed Data</b> : September 2023</li>
+                      <li><b>Architect</b> David Park</li>
+                    </ul>
+                    <div class="detail">
+                      <div><span>225</span>WORKING DAY</div>
+                      <div><span>320</span>MEMBERS</div>
+                      <div><span>3M</span>BUDGET</div>
+                    </div>
+                    <a class="view-project" href="#" data-featherlight="iframe">View Project  <i class="fas fa-arrow-right-long"></i></a>
+                  </div>
+                  <div class="project-photo">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-01-01.jpg" alt="project01">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-01-02.jpg" alt="project02">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-01-03.jpg" alt="project03">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-01-04.jpg" alt="project04">
+                  </div>
+                </div>
+                <div class="tab">
+                  <div class="project-info" data-text="02">
+                    <h3>Project : Hallway of Architecture.</h3>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, tempora ratione suscipit error neque iste quidem deleniti nesciunt dolorem, illo odit ex dolor repellendus, sequi provident voluptates laboriosam distinctio exercitationem.
+                    </p>
+                    <ul>
+                      <li><b>Area</b> : 2345 m2</li>
+                      <li><b>Completed Data</b> : Apil 2023</li>
+                      <li><b>Architect</b> Robert Kim/li>
+                    </ul>
+                    <div class="detail">
+                      <div><span>321</span>WORKING DAY</div>
+                      <div><span>420</span>MEMBERS</div>
+                      <div><span>8M</span>BUDGET</div>
+                    </div>
+                    <a class="view-project" href="#">View Project <i class="fas fa-arrow-right-long"></i></a>
+                  </div>
+                  <div class="project-photo">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-02-01.jpg" alt="project01">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-02-02.jpg" alt="project02">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-02-03.jpg" alt="project03">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-02-04.jpg" alt="project04">
+                  </div>
+                </div>
+                <div class="tab">
+                  <div class="project-info" data-text="03">
+                    <h3>Project : Outside Stairs Architecture.</h3>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, tempora ratione suscipit error neque iste quidem deleniti nesciunt dolorem, illo odit ex dolor repellendus, sequi provident voluptates laboriosam distinctio exercitationem.
+                    </p>
+                    <ul>
+                      <li><b>Area</b> : 1200 m2</li>
+                      <li><b>Completed Data</b> : May 2023</li>
+                      <li><b>Architect</b> Cristine Jung</li>
+                    </ul>
+                    <div class="detail">
+                      <div><span>131</span>WORKING DAY</div>
+                      <div><span>202</span>MEMBERS</div>
+                      <div><span>5M</span>BUDGET</div>
+                    </div>
+                    <a class="view-project" href="#">View Project <i class="fas fa-arrow-right-long"></i></a>
+                  </div>
+                  <div class="project-photo">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-03-01.jpg" alt="project01">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-03-02.jpg" alt="project02">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-03-03.jpg" alt="project03">
+                    <img src="/06_css(ani_sitel)/imgs/project-main-03-04.jpg" alt="project04">
+                  </div>
+                </div>
+              </div>
+              <div class="btn">
+                <label for="tab1"></label>
+                <label for="tab2"></label>
+                <label for="tab3"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cd-section" id="plan">
+        <div>
+          <div class="content">
+            <div class="plan-inner">
+              <div class="plan-feature">
+                <div class="plan-info">
+                  <div class="plan-heading">
+                    <h2>Planning for the Next Project</h2>
+                    <hr class="bar">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic tenetur sit, ea culpa aspernatur, quam nisi sequi alias ipsum beatae iure enim, rerum cupiditate sed ab voluptates. Dignissimos, omnis sequi!
+                    </p>
+                  </div>
+                  <div class="plan-photo">
+                    <img src="/06_css(ani_sitel)/imgs/plan-main-01.jpg" alt="plan01">
+                  </div>
+                </div>
+                <div class="history-info">
+                  <h2>History</h2>
+                  <hr class="bar">
+                  <div class="history-slider">
+                    <div>
+                      <h4>
+                        The Project <br>
+                        of kdlfjsldkjflskdjf<span>2013</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quos molestiae vitae facilis ducimus autem incidunt tempora repellendus? Modi quasi deserunt praesentium cumque excepturi debitis pariatur! Doloribus cum praesentium laborum?
+                      </p>
+                    </div>
+                    <div>
+                      <h4>
+                        The Project <br>
+                        of kdlfjsldkjflskdjf<span>2014</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quos molestiae vitae facilis ducimus autem incidunt tempora repellendus? Modi quasi deserunt praesentium cumque excepturi debitis pariatur! Doloribus cum praesentium laborum?
+                      </p>
+                    </div>
+                    <div>
+                      <h4>
+                        The Project <br>
+                        of kdlfjsldkjflskdjf<span>2013</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quos molestiae vitae facilis ducimus autem incidunt tempora repellendus? Modi quasi deserunt praesentium cumque excepturi debitis pariatur! Doloribus cum praesentium laborum?
+                      </p>
+                    </div>
+                    <div>
+                      <h4>
+                        The Project <br>
+                        of kdlfjsldkjflskdjf<span>2015</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quos molestiae vitae facilis ducimus autem incidunt tempora repellendus? Modi quasi deserunt praesentium cumque excepturi debitis pariatur! Doloribus cum praesentium laborum?
+                      </p>
+                    </div>
+                    <div>
+                      <h4>
+                        The Project <br>
+                        of kdlfjsldkjflskdjf<span>2016</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quos molestiae vitae facilis ducimus autem incidunt tempora repellendus? Modi quasi deserunt praesentium cumque excepturi debitis pariatur! Doloribus cum praesentium laborum?
+                      </p>
+                    </div>
+                    <div>
+                      <h4>
+                        The Project <br>
+                        of kdlfjsldkjflskdjf<span>2017</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quos molestiae vitae facilis ducimus autem incidunt tempora repellendus? Modi quasi deserunt praesentium cumque excepturi debitis pariatur! Doloribus cum praesentium laborum?
+                      </p>
+                    </div>
+                    <div>
+                      <h4>
+                        The Project <br>
+                        of kdlfjsldkjflskdjf<span>2018</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quos molestiae vitae facilis ducimus autem incidunt tempora repellendus? Modi quasi deserunt praesentium cumque excepturi debitis pariatur! Doloribus cum praesentium laborum?
+                      </p>
+                    </div>
+                    <div>
+                      <h4>
+                        The Project <br>
+                        of kdlfjsldkjflskdjf<span>2019</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quos molestiae vitae facilis ducimus autem incidunt tempora repellendus? Modi quasi deserunt praesentium cumque excepturi debitis pariatur! Doloribus cum praesentium laborum?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cd-section" id="awards">
+        <div>
+          <div class="content">
+            <div class="awards-inner">
+              <div class="about-awards">
+                <div class="about-heading">
+                  <h2>
+                    2023<br />
+                    Architecture Award<br />
+                    winner
+                  </h2>
+                  <hr class="bar" />
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptatem, facere reiciendis commodi animi aperiam dicta
+                    tempora corporis! Tenetur totam debitis voluptatem expedita
+                    quas, nisi corporis quam dolorem, nulla eos nesciunt.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptatem, facere reiciendis commodi animi aperiam dicta
+                    tempora corporis! Tenetur totam debitis voluptatem expedita
+                    quas, nisi corporis quam dolorem, nulla eos nesciunt.
+                  </p>
+                  </p>
+                  <a
+                    class="view-awards"
+                    href="https://www.naver.com"
+                    target="_blank"
+                    >VIEW THE AWARDS</a
+                  >
+                </div>
+              </div>
+              <div class="victory-jump">
+                <img src="./imgs/victory-jump.png" alt="victory" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cd-section" id="location">
+        <div>
+          <div class="content">
+            <div class="location-inner">
+              <div class="feature">
+                <div class="office">
+                  <div class="headquarters">
+                    <b>CREATIVE DESIGN GROUP</b>
+                    <H2>Landscape design</H2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, possimus numquam soluta placeat repellendus reiciendis corporis nobis iste atque earum harum labore, dicta ex adipisci, quisquam libero tenetur! Architecto, ducimus.</p>
+                    <span>Address : 309, New Cavendish St, EC1Y 3WK / TEL : 0800</span>
+                  </div>
+                  <div class="customer">
+                    <b>THE PERFECT WAY</b>
+                    <h2>Customer Service</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore placeat maiores temporibus porro libero similique veniam, neque odit officia pariatur laudantium ipsam, at consequatur soluta ducimus laboriosam illo! Deserunt, tempora!
+                    </p>
+                    <span>Address : 11 Fifth Ave - New York, us / Tel : 0800 809</span>
+                  </div>
+                </div>
+                <div class="service">
+                  <div class="service-item">
+                    <i class="fas fa-leaf"></i>
+                    <h3>built and Natural contexts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, minus optio? Voluptas</p>
+                  </div>
+                  <div class="service-item">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Landscape design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, minus optio? Voluptas</p>
+                  </div>
+                  <div class="service-item">
+                    <i class="fas fa-cube"></i>
+                    <h3>every building site</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, minus optio? Voluptas</p>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cd-section" id="contact">
+        <div>
+          <div class="content">
+            <div class="contact-inner">
+              <div class="contact-feature">
+                <div class="contact-form">
+                  <h3><b>Contact</b> US</h3>
+                  <p>
+                    Fell free to ask for details, Don`t save any questions.
+                  </p>
+                  <form class="send-box" action="#" method="get">
+                    <label for="email">Email<span>*</span></label>
+                    <input id="email" type="email" name="email">
+                    <label for="subject">Subject<span>*</span></label>
+                    <input id="subject" type="text" name="subject">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                    <input type="submit" value="send message">
+                  </form>
+                </div>
+                <div class="contact-info">
+                  <h4>Our <b>Office</b></h4>
+                  <ul>
+                    <li>Address : 309, New Cavendish St, ECIY 3WK</li>
+                    <li>Phone : 000 000 000</li>
+                    <li>Email :  design@sdfjldkfsd.com</li>
+                  </ul>
+                  <h4>Business <b>Hours</b></h4>
+                  <ul>
+                    <li><i class="fa fa-clock-o"></i>Monday - Friday : 9am to 5pm</li>
+                    <li><i class="fa fa-clock-o"></i>Saturday : 9am to 5pm</li>
+                    <li><i class="fa fa-clock-o"></i>sunday :  Closed</li>
+                  </ul>
+                  <h4>Get in <b>Touch</b></h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores magni tempora esse distinctio labore consectetur? Tempore, aut iusto. Molestiae inventore nobis nemo magni atque et repellat porro qui mollitia ad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <header>
+        <div class="gnb-inner">
+          <div class="logo">
+            <a href="#">
+              <img src="/06_css(ani_sitel)/imgs/logo.png" alt="logo">
+            </a>
+          </div>
+          <div class="gnb">
+            <div class="menu">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#project">Project</a>
+              <a href="#plan">Plan & History</a>
+              <a href="#award">Awards</a>
+              <a href="#location">Location</a>
+              <a href="#contact">Contact</a>
+            </div>
+            <div class="slogan">We Design places, net projects.</div>
+          </div>
+          <div class="trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>

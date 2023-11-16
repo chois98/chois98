@@ -1,0 +1,13 @@
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: #f00;
+}
+#box2 {
+  width: 50vw;
+  height: 30vh;
+  background-color: #000;
+}
+
+/*hex(hexadecimal : 16진법)코드*/
+/* 0 ~ 9 + a ~ f(15) */
