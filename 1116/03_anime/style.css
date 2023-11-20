@@ -1,0 +1,22 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+ul.menu li {
+  width: 100px;
+  height: 100px;
+  background: coral;
+  margin-bottom: 20px;
+}
+ul.menu li:nth-child(3) {
+  background: skyblue;
+}
