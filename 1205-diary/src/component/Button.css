@@ -1,0 +1,21 @@
+.Button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  white-space: nowrap;
+  font-family: "Gaegu";
+}
+.Button_default {
+  background: #ececec;
+  color: #000;
+}
+.Button_positive {
+  background: #06d6a0;
+  color: #fff;
+}
+.Button_negative {
+  background: #ef476f;
+  color: #fff;
+}
