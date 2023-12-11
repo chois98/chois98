@@ -28,6 +28,7 @@ const choice = {
 function App() {
   const [userSelect, setuserSelect] = useState({});
   const [computerSelect, setcomputerSelect] = useState({});
+  const [result, setResult] = useState("");
   const randomChoice = () => {
     let itemArray = Object.keys(choice);
     console.log(itemArray);
@@ -37,17 +38,32 @@ function App() {
     console.log(final);
     return choice[final];
   };
+
+  const judgement = (user, Computer) => {
+    console.log(user, Computer);
+    if (user.name === Computer.name) {
+      return "tie";
+    } else if (user.name === "rock") {
+      return Computer.name === "scissors" ? "win" : "lose";
+    } else if (user.name === "scissors") {
+      return Computer.name === "paper" ? "win" : "lose";
+    } else if (user.name === "paper") {
+      return Computer.name === "rock" ? "win" : "lose";
+    }
+  };
+
   const play = (userChoice) => {
     setuserSelect(choice[userChoice]);
     let ComputerChoice = randomChoice();
     setcomputerSelect(ComputerChoice);
+    setResult(judgement(choice[userChoice], ComputerChoice));
   };
 
   return (
     <div className="App">
       <div className="main">
-        <Box title="You" item={userSelect} />
-        <Box title="Computer" />
+        <Box title="You" item={userSelect} result={result} />
+        <Box title="Computer" item={computerSelect} result={result} />
       </div>
       <div className="main">
         <button onClick={(active) => play("scissors")}>가위</button>

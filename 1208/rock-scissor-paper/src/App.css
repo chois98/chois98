@@ -23,3 +23,15 @@
   justify-content: center;
   gap: 10px;
 }
+.win {
+  border: 10px solid #2196f3;
+  color: #2196f3;
+}
+.lose {
+  border: 10px solid #f00;
+  color: #f00;
+}
+.tie {
+  border: 10px solid #0f0;
+  color: #0f0;
+}
