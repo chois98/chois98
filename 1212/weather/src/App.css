@@ -1,0 +1,19 @@
+body {
+  background: url(https://i.pinimg.com/564x/d3/8b/6d/d38b6d95e981228957f3953ef4cf2e59.jpg)
+    center center/cover no-repeat;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+.weather-box {
+  border: 3px solid #fff;
+  border-radius: 30px;
+  padding: 50px;
+  background: azure;
+}
