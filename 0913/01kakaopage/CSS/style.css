@@ -1,5 +1,5 @@
-@import url("/01kakaopage/CSS/reset.css");
-@import url("/01kakaopage/CSS/var.css");
+@import url("./reset.css");
+@import url("./var.css");
 
 /* header {
   margin: 0 auto;
